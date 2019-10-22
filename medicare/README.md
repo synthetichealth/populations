@@ -1,6 +1,8 @@
 # Medicare Population
 
-This population is intended to model the US Medicare Population, and in particular is intended to model the following selected characteristics of the Medicare population:
+This set of overrides produces a population that is intended to model the US Medicare Population, and in particular is intended to model the below selected characteristics of the Medicare population.
+
+Note that Synthea lacks the ability to generate or export a population where every individual is covered by Medicare, so this population definition assumes that all individuals will be over the age of 65.
 
 SNOMED|CONDITION|CATEGORY|STATUS|AGE GROUP|GENDER|RACE|GIVEN CONDITION|TARGET %
 ------|---------|--------|------|---------|------|----|---------------|--------
@@ -27,3 +29,5 @@ Source data from:
  - https://www.cms.gov/Research-Statistics-Data-and-Systems/Statistics-Trends-and-Reports/Chronic-Conditions/Chartbook_Charts.html
  - https://www.cms.gov/Research-Statistics-Data-and-Systems/Statistics-Trends-and-Reports/Chronic-Conditions/Co-morbidity.html
  - https://www.cancer.gov/types/common-cancers
+ 
+ 
